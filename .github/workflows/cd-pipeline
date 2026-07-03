@@ -1,5 +1,5 @@
 db:
-    image: 'postgres:latest'
+    image: 'postgres:17'
     container_name: postgres_theater
     env_file:
       - .env
